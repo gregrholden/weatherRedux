@@ -1,0 +1,4 @@
+// Place your OpenWeather API key in the first constant, then rename this file to config.js
+const API_KEY = 'PLACE_YOUR_OPENWEATHERMAP_API_KEY_HERE';
+export const API_WEATHER_URL = `http://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}`;
+export const API_FORECAST_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
